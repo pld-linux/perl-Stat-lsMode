@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define		pdir	Stat
-%define		pnam	lsMode
+%define	pdir	Stat
+%define	pnam	lsMode
 Summary:	Stat::lsMode Perl module
 Summary(cs):	Modul Stat::lsMode pro Perl
 Summary(da):	Perlmodul Stat::lsMode
