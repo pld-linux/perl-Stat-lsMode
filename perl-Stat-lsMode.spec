@@ -10,7 +10,7 @@ Summary(fr):	Module Perl Stat::lsMode
 Summary(it):	Modulo di Perl Stat::lsMode
 Summary(ja):	Stat::lsMode Perl ¥â¥¸¥å¡¼¥ë
 Summary(ko):	Stat::lsMode ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul Stat::lsMode
+Summary(nb):	Perlmodul Stat::lsMode
 Summary(pl):	Modu³ Perla Stat::lsMode
 Summary(pt):	Módulo de Perl Stat::lsMode
 Summary(pt_BR):	Módulo Perl Stat::lsMode
