@@ -24,7 +24,7 @@ Summary(uk):	Модуль для Perl Stat::lsMode
 Summary(zh_CN):	Stat::lsMode Perl дё©И
 Name:		perl-Stat-lsMode
 Version:	0.50
-Release:	10
+Release:	11
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
