@@ -1,11 +1,26 @@
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Stat
-%define	pnam	lsMode
-Summary:	Stat::lsMode perl module
-Summary(pl):	Modu³ perla Stat::lsMode
+%define		pdir	Stat
+%define		pnam	lsMode
+Summary:	Stat::lsMode Perl module
+Summary(cs):	Modul Stat::lsMode pro Perl
+Summary(da):	Perlmodul Stat::lsMode
+Summary(de):	Stat::lsMode Perl Modul
+Summary(es):	Módulo de Perl Stat::lsMode
+Summary(fr):	Module Perl Stat::lsMode
+Summary(it):	Modulo di Perl Stat::lsMode
+Summary(ja):	Stat::lsMode Perl ¥â¥¸¥å¡¼¥ë
+Summary(ko):	Stat::lsMode ÆÞ ¸ðÁÙ
+Summary(no):	Perlmodul Stat::lsMode
+Summary(pl):	Modu³ Perla Stat::lsMode
+Summary(pt):	Módulo de Perl Stat::lsMode
+Summary(pt_BR):	Módulo Perl Stat::lsMode
+Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl Stat::lsMode
+Summary(sv):	Stat::lsMode Perlmodul
+Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Stat::lsMode
+Summary(zh_CN):	Stat::lsMode Perl Ä£¿é
 Name:		perl-Stat-lsMode
 Version:	0.50
-Release:	8
+Release:	9
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -34,13 +49,11 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install DESTDIR=$RPM_BUILD_ROOT
 
-gzip -9nf README
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
-%{perl_sitelib}/Stat/lsMode.pm
+%doc README
+%{perl_sitelib}/Stat
 %{_mandir}/man3/*
