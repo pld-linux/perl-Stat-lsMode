@@ -3,7 +3,7 @@ Summary:	Stat-lsMode perl module
 Summary(pl):	Modu³ perla Stat-lsMode
 Name:		perl-Stat-lsMode
 Version:	0.50
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
