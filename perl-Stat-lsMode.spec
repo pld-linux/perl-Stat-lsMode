@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Stat
 %define	pnam	lsMode
-%include	/usr/lib/rpm/macros.perl
 Summary:	Stat-lsMode perl module
 Summary(pl):	Modu³ perla Stat-lsMode
 Name:		perl-Stat-lsMode
 Version:	0.50
-Release:	7
-
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -24,7 +23,7 @@ Stat-lsMode generuje ³añcuchy z prawami dostêpu w podobnym formacie, w
 jakim wy¶wietla je polecenie ls -l.
 
 %prep
-%setup -q -n Stat-lsMode-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
