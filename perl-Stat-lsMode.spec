@@ -43,7 +43,7 @@ jakim wy¶wietla je polecenie ls -l.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
