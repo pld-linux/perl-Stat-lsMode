@@ -4,7 +4,6 @@
 
 %define		pdir	Stat
 %define		pnam	lsMode
-%include	/usr/lib/rpm/macros.perl
 Summary:	Stat::lsMode Perl module
 Summary(cs.UTF-8):	Modul Stat::lsMode pro Perl
 Summary(da.UTF-8):	Perlmodul Stat::lsMode
