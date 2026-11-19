@@ -22,13 +22,13 @@ Summary(sv.UTF-8):	Stat::lsMode Perlmodul
 Summary(uk.UTF-8):	Модуль для Perl Stat::lsMode
 Summary(zh_CN.UTF-8):	Stat::lsMode Perl 模块
 Name:		perl-Stat-lsMode
-Version:	0.50
-Release:	13
+Version:	0.51
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	bf7e558fd0d668dffb2dcd62d21ef635
+# Source0-md5:	7d34325a85c815c2ca744b414048b2fe
 URL:		http://search.cpan.org/dist/Stat-lsMode/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
